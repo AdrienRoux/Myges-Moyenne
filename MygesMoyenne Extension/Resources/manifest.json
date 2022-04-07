@@ -20,8 +20,9 @@
     },
 
     "content_scripts": [{
+        "css": ["extension_style.css"],
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "https://myges.fr/student/marks" ]
     }],
 
     "browser_action": {

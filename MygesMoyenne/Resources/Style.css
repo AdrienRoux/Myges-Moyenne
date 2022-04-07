@@ -27,3 +27,10 @@ body {
     font: -apple-system-short-body;
     text-align: center;
 }
+
+img.stretchy {
+width: 100%; /*Tells image to fit to width of parent container*/
+}
+.container {
+width: 50%; /*Use this to control width of the parent container, hence the image*/
+}

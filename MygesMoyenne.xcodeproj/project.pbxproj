@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2069636127FDD97300C71264 /* extension_style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2069636027FDD97300C71264 /* extension_style.css */; };
+		2069636727FEEF5300C71264 /* explanation_iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2069636627FEEF5300C71264 /* explanation_iOS.png */; };
 		20AA0F9127FC49EF004CA4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AA0F9027FC49EF004CA4A6 /* AppDelegate.swift */; };
 		20AA0F9527FC49EF004CA4A6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 20AA0F9327FC49EF004CA4A6 /* Main.html */; };
 		20AA0F9727FC49EF004CA4A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AA0F9627FC49EF004CA4A6 /* Icon.png */; };
@@ -18,7 +20,7 @@
 		20AA0FAF27FC49F2004CA4A6 /* MygesMoyenneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AA0FAE27FC49F2004CA4A6 /* MygesMoyenneTests.swift */; };
 		20AA0FB927FC49F2004CA4A6 /* MygesMoyenneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AA0FB827FC49F2004CA4A6 /* MygesMoyenneUITests.swift */; };
 		20AA0FBB27FC49F2004CA4A6 /* MygesMoyenneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AA0FBA27FC49F2004CA4A6 /* MygesMoyenneUITestsLaunchTests.swift */; };
-		20AA0FC127FC49F2004CA4A6 /* MygesMoyenne Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20AA0FC027FC49F2004CA4A6 /* MygesMoyenne Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		20AA0FC127FC49F2004CA4A6 /* MygesMoyenne Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 20AA0FC027FC49F2004CA4A6 /* MygesMoyenne Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		20AA0FC627FC49F2004CA4A6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AA0FC527FC49F2004CA4A6 /* SafariWebExtensionHandler.swift */; };
 		20AA0FC927FC49F2004CA4A6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 20AA0FC827FC49F2004CA4A6 /* _locales */; };
 		20AA0FCB27FC49F2004CA4A6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 20AA0FCA27FC49F2004CA4A6 /* images */; };
@@ -70,6 +72,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2069636027FDD97300C71264 /* extension_style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = extension_style.css; sourceTree = "<group>"; };
+		2069636627FEEF5300C71264 /* explanation_iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explanation_iOS.png; sourceTree = "<group>"; };
+		2069636827FEF87C00C71264 /* MygesMoyenne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MygesMoyenne.entitlements; sourceTree = "<group>"; };
+		2069636927FEF87C00C71264 /* MygesMoyenne Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MygesMoyenne Extension.entitlements"; sourceTree = "<group>"; };
 		20AA0F8D27FC49EF004CA4A6 /* MygesMoyenne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MygesMoyenne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20AA0F9027FC49EF004CA4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20AA0F9427FC49EF004CA4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -156,6 +162,7 @@
 		20AA0F8F27FC49EF004CA4A6 /* MygesMoyenne */ = {
 			isa = PBXGroup;
 			children = (
+				2069636827FEF87C00C71264 /* MygesMoyenne.entitlements */,
 				20AA0F9027FC49EF004CA4A6 /* AppDelegate.swift */,
 				20AA0F9A27FC49EF004CA4A6 /* SceneDelegate.swift */,
 				20AA0F9C27FC49EF004CA4A6 /* ViewController.swift */,
@@ -172,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				20AA0F9327FC49EF004CA4A6 /* Main.html */,
+				2069636627FEEF5300C71264 /* explanation_iOS.png */,
 				20AA0F9627FC49EF004CA4A6 /* Icon.png */,
 				20AA0F9827FC49EF004CA4A6 /* Style.css */,
 			);
@@ -198,6 +206,7 @@
 		20AA0FC427FC49F2004CA4A6 /* MygesMoyenne Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2069636927FEF87C00C71264 /* MygesMoyenne Extension.entitlements */,
 				20AA0FC527FC49F2004CA4A6 /* SafariWebExtensionHandler.swift */,
 				20AA0FD827FC49F2004CA4A6 /* Info.plist */,
 				20AA0FC727FC49F2004CA4A6 /* Resources */,
@@ -216,6 +225,7 @@
 				20AA0FD227FC49F2004CA4A6 /* popup.html */,
 				20AA0FD427FC49F2004CA4A6 /* popup.css */,
 				20AA0FD627FC49F2004CA4A6 /* popup.js */,
+				2069636027FDD97300C71264 /* extension_style.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -347,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2069636727FEEF5300C71264 /* explanation_iOS.png in Resources */,
 				20AA0F9727FC49EF004CA4A6 /* Icon.png in Resources */,
 				20AA0FA327FC49EF004CA4A6 /* Main.storyboard in Resources */,
 				20AA0FA027FC49EF004CA4A6 /* LaunchScreen.storyboard in Resources */,
@@ -374,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2069636127FDD97300C71264 /* extension_style.css in Resources */,
 				20AA0FCF27FC49F2004CA4A6 /* background.js in Resources */,
 				20AA0FD527FC49F2004CA4A6 /* popup.css in Resources */,
 				20AA0FD327FC49F2004CA4A6 /* popup.html in Resources */,
@@ -438,6 +450,7 @@
 		};
 		20AA0FC327FC49F2004CA4A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 20AA0FBF27FC49F2004CA4A6 /* MygesMoyenne Extension */;
 			targetProxy = 20AA0FC227FC49F2004CA4A6 /* PBXContainerItemProxy */;
 		};
@@ -588,6 +601,7 @@
 		20AA0FDD27FC49F2004CA4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MygesMoyenne Extension/MygesMoyenne Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NTXP269L29;
@@ -606,18 +620,20 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.radri.MygesMoyenne.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radri.mygesmoyenne.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
 		20AA0FDE27FC49F2004CA4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MygesMoyenne Extension/MygesMoyenne Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NTXP269L29;
@@ -636,12 +652,13 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.radri.MygesMoyenne.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radri.mygesmoyenne.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
@@ -651,12 +668,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = MygesMoyenne/MygesMoyenne.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NTXP269L29;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MygesMoyenne/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MygesMoyenne;
+				INFOPLIST_KEY_CFBundleDisplayName = "MyGES Moyenne";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -674,11 +694,12 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.radri.MygesMoyenne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radri.mygesmoyenne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -688,12 +709,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = MygesMoyenne/MygesMoyenne.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NTXP269L29;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MygesMoyenne/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MygesMoyenne;
+				INFOPLIST_KEY_CFBundleDisplayName = "MyGES Moyenne";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -711,11 +735,12 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.radri.MygesMoyenne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radri.mygesmoyenne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};

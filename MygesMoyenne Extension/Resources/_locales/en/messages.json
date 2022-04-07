@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is MygesMoyenne Extension. You should tell us what your extension does here.",
+        "message": "L'extension MygesMoyenne désormais sur tous vos appareils Apple !",
         "description": "Description of what the extension does."
     }
 }

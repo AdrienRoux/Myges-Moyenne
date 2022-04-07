@@ -1,0 +1,46 @@
+.moyenne_text_ok {
+  position: relative;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+
+/* We create a pseudo element and blur it using the SVG filter. We’ll grab the content from the custom HTML attribute. */
+
+.moyenne_text_ok:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: attr(filter-content);
+
+  filter: url(#motion-blur-filter);
+}
+
+.moyenne_text_not_ok {
+  position: relative;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+
+/* We create a pseudo element and blur it using the SVG filter. We’ll grab the content from the custom HTML attribute. */
+
+.moyenne_text_not_ok:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: attr(filter-content);
+
+  filter: url(#motion-blur-filter);
+}
+
+/* We hide the SVG filter element from the DOM as it would take up some space */
+
+svg {
+  display: none;
+}
